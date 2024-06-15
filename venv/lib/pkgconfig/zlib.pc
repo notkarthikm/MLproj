@@ -1,0 +1,13 @@
+prefix=/Users/notkarthik/Desktop/Udemy/24 Project/MLproj/venv
+exec_prefix=/Users/notkarthik/Desktop/Udemy/24 Project/MLproj/venv
+libdir=/Users/notkarthik/Desktop/Udemy/24 Project/MLproj/venv/lib
+sharedlibdir=/Users/notkarthik/Desktop/Udemy/24 Project/MLproj/venv/lib
+includedir=/Users/notkarthik/Desktop/Udemy/24 Project/MLproj/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

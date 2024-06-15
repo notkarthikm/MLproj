@@ -1,0 +1,11 @@
+prefix=/Users/notkarthik/Desktop/Udemy/24 Project/MLproj/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/notkarthik/Desktop/Udemy/24 Project/MLproj/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
